@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+.env
+.env.local
+
+# MediaPipe model (large binary — downloaded via setup script)
+models/*.task
+
+# Music files (personal — not for version control)
+music/
+
+# Datasets (large image sets)
+datasets/
+
+# Logs
+*.log
+music_debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Temp / scratch
+tempCodeRunnerFile.py
